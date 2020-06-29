@@ -1,0 +1,17 @@
+$primary: #ff0000;
+$secondary: #ffff00;
+$black: #000000;
+$white: #ffffff;
+
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "black": $black,
+    "white": $white,
+);
+
+$spacer: 1rem !default;
+
+$spacers: (
+    10: ($spacer * 5),
+)
