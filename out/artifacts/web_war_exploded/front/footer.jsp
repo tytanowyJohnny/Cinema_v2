@@ -19,7 +19,7 @@
                     <br />
                     <br />
                     <ul class="p-0 mb-0">
-                        <li>Repertuar</li>
+                        <li><a href="index.jsp?page=index">Repertuar</a></li>
                         <li>Cennik</li>
                         <li>Zapowiedzi</li>
                         <li>Baza filmów</li>

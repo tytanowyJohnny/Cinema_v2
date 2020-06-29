@@ -2,12 +2,13 @@ package model;
 
 import java.util.ArrayList;
 
-public class cinemaUser {
+public class CinemaUser {
 
-    private String name;
-    private String surname;
-    private String username;
-    private String password;
+    private String name = "";
+    private String surname = "";
+    private String username = "";
+    private String password = null;
+    private String email = "";
     private int role = -1;
 
     /*
@@ -21,23 +22,35 @@ public class cinemaUser {
 
      */
 
-    public cinemaUser(String mName, String mSurname, String mUsername, String mPassword, int mRole) {
+    public CinemaUser() {}
+
+    public CinemaUser(String mName, String mSurname, String mUsername, String mPassword, String mEmail, int mRole) {
 
         this.name = mName;
         this.surname = mSurname;
         this.username = mUsername;
         this.password = mPassword;
+        this.email = mEmail;
         this.role = mRole;
 
     }
 
-    public cinemaUser(String mName, String mSurname, String mUsername, String mPassword) {
+    public CinemaUser(String mName, String mSurname, String mUsername, String mPassword, String mEmail) {
 
         this.name = mName;
         this.surname = mSurname;
         this.username = mUsername;
         this.password = mPassword;
+        this.email = mEmail;
 
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
     }
 
     public String getName() {
